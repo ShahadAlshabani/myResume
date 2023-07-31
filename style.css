@@ -1,0 +1,169 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #300a35;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #300a35;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+a {
+    color: #f2f2f2;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  th {
+    background-color: #300a35;
+    color: white;
+  }
+
+
+.contact-info {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+/* About Me section styles */
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Certifications section styles */
+
+.certifications{
+    margin-bottom: 40px;
+}
+
+
+/* Education section styles */
+.education-list {
+    list-style: none;
+}
+
+.education {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.education-time {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.education-time .education-date {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.education-content {
+    flex: 1;
+}
+
+.education-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.GPA {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* Skills section styles */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #300a35;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+
+}
+
+
+
+
+
+
+
+

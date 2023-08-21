@@ -1,6 +1,8 @@
-const react = document.getElementById("root");
+import './MyCv.css'
 
-const element = <div>
+function MyCv() {
+  return (
+    <>
     <header>
 		<div  className="container">
 			<div className="header-content">
@@ -113,6 +115,8 @@ const element = <div>
 			<p>&copy; 2023 shahad-alshabani</p>
 		</div>
 	</footer>
-</div>;
+</>
+  )
+}
 
-ReactDOM.render(element,react);
+export default MyCv
